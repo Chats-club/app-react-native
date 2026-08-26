@@ -8,11 +8,11 @@
     "userInterfaceStyle": "light",
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.yourcompany.casinochinese",
+      "bundleIdentifier": "com.example.casinochinese",
       "buildNumber": "1"
     },
     "android": {
-      "package": "com.yourcompany.casinochinese",
+      "package": "com.example.casinochinese",
       "versionCode": 1,
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
