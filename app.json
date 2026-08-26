@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Casino Chinese",
+    "slug": "casino-chinese-native",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.casinochinese",
+      "buildNumber": "1"
+    },
+    "android": {
+      "package": "com.yourcompany.casinochinese",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-speech-recognition",
+        {
+          "microphonePermission": "Casino Chinese uses the microphone so you can practice speaking phrases and get pronunciation feedback.",
+          "speechRecognitionPermission": "Casino Chinese uses speech recognition to check your pronunciation during Speaking practice."
+        }
+      ]
+    ]
+  }
+}
